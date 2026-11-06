@@ -1,0 +1,44 @@
+*.jks
+toc.pb
+*.apks
+.cursorrules
+release_outputs/
+node_modules/
+
+# Model configuration files (contains internal URLs)
+model-config.json
+app/src/main/assets/builtin_models
+
+# Local machine / IDE
+local.properties
+.idea/
+.kotlin/
+*.iml
+.DS_Store
+Thumbs.db
+
+# Gradle
+.gradle/
+
+# Build outputs (C++ / Android)
+/build/
+/build_native/
+/build_64/
+/app/build/
+/app/.cxx/
+/frameworks/*/android/build/
+/frameworks/*/android/.cxx/
+/externalNativeBuild/
+
+# Compiled artifacts
+*.o
+*.obj
+*.a
+*.so
+*.apk
+*.aab
+*.dex
+*.class
+
+# Test artifacts
+tests/smoke/artifacts/
